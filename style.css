@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap');
+
+body {
+    background-color: black;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-optical-sizing: auto;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(9, 9, 33);
+
+}
+
+.nav-hr-bottom {
+    border: 0;
+
+    position: fixed;
+    width: 90%;
+    top: 80px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav .left {
+    margin-top: 50px;
+    margin-left: 28px;
+
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+nav .right {
+    margin-left: 300px;
+
+}
+
+nav ul li {
+    margin: 0 20px;
+    list-style: none;
+
+
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    color: white;
+}
+
+
+nav ul li a:hover {
+    color: rgb(137, 137, 224);
+    ;
+
+    border-radius: 8px;
+
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.first {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 50px 0px;
+    width: 35%;
+    color: white;
+    font-size: 2.5rem;
+    background-color: black;
+}
+
+.second {
+    padding: 50px 0px;
+    width: 35%;
+    background-color: black;
+
+}
+
+.second img {
+    padding-top: 80px;
+    height: 300px;
+}
+
+.lavender {
+    color: rgb(138, 138, 226);
+}
+
+#element {
+    color: rgb(138, 138, 226);
+
+}
+
+footer {
+
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: rgb(46, 27, 76);
+    width: 100%;
+}
+
+.footer-first {
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.footer-second {
+    color: white;
+    padding-top: 10px;
+}
+
+.footer-second li {
+    list-style: none;
+}
+
+.footer-second img {
+    height: 15px;
+}
+
+.footer-second a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(125, 125, 222);
+
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 12px;
+    cursor: pointer;
+
+}
+
+.mileston {
+    height: 65vh;
+    margin: auto;
+    max-width: 80vw;
+}
+
+.mileston hr {
+    border: 0;
+    background-color: white;
+    height: 0.5px;
+    margin: 25px 84px;
+}
+
+.mileston div {
+    font-size: 10px;
+    color: white;
+}
+
+.gray {
+    color: gray;
+    font-size: 10px;
+    padding-left: 180px;
+
+}
+
+.mileston h1 {
+    color: white;
+    padding-left: 180px;
+}
+
+.box {
+    height: 1px;
+    background-color: white;
+    margin: 30px 180px;
+    ;
+}
+.mileston .box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mileston .vertical {
+
+    height: 50px;
+    width: 1px;
+    background-color: white;
+    margin-left: 100px;
+}
+.vertical .vertical-text{
+  top: 15px;
+   position: relative;
+   width: 120px;
+   font-size: 15px;
+   color: rgb(138, 138, 226);
+}
+.top-img img{
+    position: relative;
+    top:-37px;
+    height: 40px;
+   
+
+}
